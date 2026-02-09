@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: php-apache
-        image: kiran2361993/myportfolio:v1
+        image: hariharan/myportfolio:v1
         ports:
         - containerPort: 80
         resources:

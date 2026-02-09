@@ -136,7 +136,7 @@ spec:
     spec:
       containers:
       - name: result
-        image: kiran2361993/testing:latestappresults
+        image: hariharan/testing:latestappresults
         ports:
         - containerPort: 80
           name: result
@@ -176,7 +176,7 @@ spec:
     spec:
       containers:
       - name: vote
-        image: kiran2361993/testing:latestappvote
+        image: hariharan/testing:latestappvote
         ports:
         - containerPort: 80
           name: vote
@@ -213,7 +213,7 @@ spec:
         app: worker
     spec: 
       containers: 
-      - image: kiran2361993/testing:latestappworker
+      - image: hariharan/testing:latestappworker
         name: worker
       imagePullSecrets:
       - name: docker-pwd
